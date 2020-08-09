@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1583580141431" clover="3.2.0">
+  <project timestamp="1583580141431" name="All files">
+    <metrics statements="91" coveredstatements="73" conditionals="14" coveredconditionals="8" methods="52" coveredmethods="44" elements="157" coveredelements="125" complexity="0" loc="91" ncloc="91" packages="4" files="15" classes="15"/>
+    <package name="components">
+      <metrics statements="53" coveredstatements="41" conditionals="10" coveredconditionals="4" methods="30" coveredmethods="25"/>
+      <file name="DetailCard.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/DetailCard.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+      <file name="ItemCardDeck.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/ItemCardDeck.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="ListCardDeck.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/ListCardDeck.jsx">
+        <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="7" coveredmethods="5"/>
+        <line num="6" count="28" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+      </file>
+      <file name="Loading.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/Loading.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="11" type="stmt"/>
+      </file>
+      <file name="MyCardDetail.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/MyCardDetail.jsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="MyFavoriteCard.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/MyFavoriteCard.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="NavbarHome.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/components/NavbarHome.jsx">
+        <metrics statements="21" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="5"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="39" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="11" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="useDetailCard.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/hooks/useDetailCard.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="21" type="stmt"/>
+        <line num="6" count="21" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="21" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.actions">
+      <metrics statements="17" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6"/>
+      <file name="categoryAction.js" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/redux/actions/categoryAction.js">
+        <metrics statements="7" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="detaiHeroCardAction.js" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/redux/actions/detaiHeroCardAction.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+      <file name="getAllCard.js" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/redux/actions/getAllCard.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="views">
+      <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
+      <file name="DetailPage.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/views/DetailPage.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+      <file name="ErrorPage.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/views/ErrorPage.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="FavoritePage.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/views/FavoritePage.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="HomePage.jsx" path="/home/ahmadzp/phase3/week1/firebase/react-challenge/client/src/views/HomePage.jsx">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+        <line num="12" count="21" type="stmt"/>
+        <line num="14" count="21" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="18" count="45" type="stmt"/>
+        <line num="19" count="45" type="stmt"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="21" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="35" count="21" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,91 @@
+.container {
+  width: 23vw;
+  height: 65vh;
+  perspective: 1500;
+  position: unset;
+  cursor: pointer;
+}
+
+.container:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card,
+.front,
+.back {
+  width: 328px;
+  height: 480px;
+  border-radius: 5px;
+}
+
+.card {
+  position: relative;
+  background-image:url("https://vignette.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png/revision/latest/scale-to-width-down/328?cb=2010072608370");
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  background-size: contain;
+}
+
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+  overflow: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+iframe {
+  margin: 500px 0px 0px 0px;
+  float: left;
+}
+
+.myCard{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.myButton{
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 6px;
+  position: relative;
+  border-radius: 5px;
+  margin: 5px 5px 10px 10px;
+  height: 35px;
+  text-shadow: 1px 1px 0px #193c57;
+  padding-top: 6px;
+  position: relative;
+  background-color: #193c57;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 0px #0d3d4b, 0px 5px 0px 0px #144554,
+    0px 10px 5px #999;
+}
+.myButton:active{
+    top: 3px;
+  box-shadow: inset 0px 1px 0px #0d3d4b, 0px 2px 0px 0px #144554,
+    0px 5px 3px #999;
+}
+
+.detailCardDeck{
+  width: 50rem;
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 11vh;
+  background-color: #6c757d7d!important;
+  box-shadow: inset 0px 1px 0px #999, 0px 2px 0px 0px #999,
+    0px 10px 10px #999;
+}
